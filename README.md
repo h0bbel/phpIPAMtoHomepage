@@ -10,6 +10,7 @@ Download the pre-configured container configure the required environment variabl
 ### Option 2: Run in PowerShell/PowerCLI
 
 Set the environment variables and run the script
+NOTE: Ouput for the services.yaml file is set to /homepage
 
 ## Environment Variables
 
