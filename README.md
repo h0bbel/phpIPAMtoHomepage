@@ -20,6 +20,6 @@ NOTE: Ouput for the services.yaml file is set to /homepage
 
 `$Env:Token`
 
-## Volumes
+## Docker Volumes
 
 /homepage should be mapped to a location where [Homepage](https://gethomepage.dev/) can read the services.yaml from.
