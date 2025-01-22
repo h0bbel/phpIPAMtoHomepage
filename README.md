@@ -10,3 +10,9 @@ Download the pre-configured container configure the required environment variabl
 ### Option 2: Run in PowerShell/PowerCLI
 
 Set the environment variables and run the script
+
+## Environment Variables
+
+$phpIPAMURL         # Note: The URL should end with a trailing slash
+$AppID
+$Token
