@@ -5,7 +5,7 @@ Powershell script to grab hostnames from the phpIPAM API and create a services.y
 
 ### Option 1: Container
 
-Download the pre-configured container configure the required environment variables and run it.
+Download the pre-configured container, configure the required environment variables and run it. The container exits after it's finished.
 
 ### Option 2: Run in PowerShell/PowerCLI
 
