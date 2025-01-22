@@ -19,7 +19,7 @@ Set the environment variables and run the script
 
 **Note: The URL should end with a trailing slash**
 
-`$Env:AppID` set to the App id in the phpIPAM API via **Administration -> API -> Create API Key**. Create an App id with App security: SSL with App code token. phpIPAMtoHomepage only requires READ permissions.
+`$Env:AppID` set to the App id created in the phpIPAM API via **Administration -> API -> Create API Key**. Create an App id with App security: SSL with App code token. phpIPAMtoHomepage only requires READ permissions.
 
 ![screenshot](https://github.com/h0bbel/phpIPAMtoHomepage/blob/main/img/phpipamapi01.png)
 
@@ -27,4 +27,4 @@ Set the environment variables and run the script
 
 ## Docker Volumes
 
-/homepage should be mapped to a location where [Homepage](https://gethomepage.dev/) can read the services.yaml from.
+/homepage should be mapped to a location where this container can write the services.yaml file to, and [Homepage](https://gethomepage.dev/) can read it from.
