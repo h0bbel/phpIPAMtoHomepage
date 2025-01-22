@@ -14,7 +14,9 @@ Set the environment variables and run the script
 ## Environment Variables
 
 `$Env:phpIPAMURL`         # Note: The URL should end with a trailing slash
+
 `$Env:AppID`
+
 `$Env:Token`
 
 ## Volumes
