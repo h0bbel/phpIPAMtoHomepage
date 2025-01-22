@@ -17,7 +17,7 @@ Set the environment variables and run the script
 
 `$Env:phpIPAMURL` set to the URL for [phpIPAM](https://phpipam.net/) instance.
 
-# Note: The URL should end with a trailing slash
+**Note: The URL should end with a trailing slash**
 
 `$Env:AppID` set to the App id in the phpIPAM API via **Administration -> API -> Create API Key**. Create an App id with App security: SSL with App code token. phpIPAMtoHomepage only requires READ permissions.
 
