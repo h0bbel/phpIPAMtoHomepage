@@ -8,7 +8,7 @@ The generated `services.yaml` file can be copied to a running [Homepage](https:/
 
 ### Option 1: Container
 
-Download the pre-configured container, configure the required environment variables and run it. The container exits after it's finished.
+Download the pre-configured container, configure the required environment variables and run it. The container exits after it's finished, and the result is saved in `services.yaml`
 
 ### Option 2: Run in PowerShell/PowerCLI
 
