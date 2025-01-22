@@ -1,11 +1,4 @@
 # Declare Variables
-
-# TODO:
-# * Output files to a specific directory outside of the container
-# * Autobuild container
-# * How to run it on a schedule? Just make the container run it on startup and then exit? Schedule it externally? or do it like this? https://brendg.co.uk/2022/04/27/dockerizing-a-powershell-script/
-
-
 $version = "0.0.5"  # Version of the script
 
 # Get variables from environment variables
@@ -210,7 +203,7 @@ if ($null -eq $Addresses -or $Addresses.Count -eq 0) {
 }
 
 # Export discovered hosts to a services.yaml file
-$ServicesYamlOutputFile = "services.yaml" # Add proper path?
+$ServicesYamlOutputFile = "/homepage/services.yaml"
 Convert-DiscoveredHostsToYaml -Data $Addresses -OutputFile $ServicesYamlOutputFile 
 
 # Finish!
