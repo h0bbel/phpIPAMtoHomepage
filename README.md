@@ -17,9 +17,11 @@ Set the environment variables and run the script
 
 `$Env:phpIPAMURL`         # Note: The URL should end with a trailing slash
 
-`$Env:AppID`
+`$Env:AppID` set to the App id in the phpIPAM API via **Administration -> API -> Create API Key**. Create an App id with App security: SSL with App code token. phpIPAMtoHomepage only requires READ permissions.
 
-`$Env:Token`
+<insert screenshot>
+
+`$Env:Token` set to the "App code" created in the phpIPAM API settings.
 
 ## Docker Volumes
 
