@@ -36,4 +36,4 @@ Set the environment variables and run the script
 
 `docker run -v .:/homepage -e phpIPAMURL=https://ipam.badunicorn.no/api/ -e AppID=chmo-test -e Token=QWDb36x4M893mFBHuQKZyp3WmiOCyeje ghcr.io/h0bbel/phpipamtohomepage:latest`
 
-This runs the container and the generated outout `services.yaml` file is saved in the current working directory.
+This runs the container and the generated output `services.yaml` file is saved in the current working directory.
