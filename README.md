@@ -27,7 +27,7 @@ Set the environment variables and run the script
 
 ### Example
 
-docker run -e phpIPAMURL=http://phpipam.example.com -e AppID=myAppID -e Token=123456 <container>
+docker run -e phpIPAMURL=http://phpipam.example.com -e AppID=myAppID -e Token=123456 {container}
 
 ## Docker Volumes
 
