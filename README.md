@@ -14,5 +14,7 @@ Set the environment variables and run the script
 ## Environment Variables
 
 $phpIPAMURL         # Note: The URL should end with a trailing slash
+
 $AppID
+
 $Token
