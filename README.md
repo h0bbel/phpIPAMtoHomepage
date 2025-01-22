@@ -27,9 +27,12 @@ Set the environment variables and run the script
 
 ### Example
 
-docker run -e phpIPAMURL=http://phpipam.example.com/ -e AppID=myAppID -e Token=123456 {container}
+`docker run -e phpIPAMURL=http://phpipam.example.com/ -e AppID=myAppID -e Token=123456 {container}`
 
 ## Docker Volumes
 
-/homepage should be mapped to a location where this container can write the services.yaml file to, and [Homepage](https://gethomepage.dev/) can read it from.
+/homepage should be mapped to a location where this container can write the `services.yaml` file, and [Homepage](https://gethomepage.dev/) can read it from.
 
+### Example
+
+`docker run -v /data/homepage:/homepage -e phpIPAMURL=http://phpipam.example.com/ -e AppID=myAppID -e Token=123456 {container}`
