@@ -8,11 +8,6 @@
 
 $version = "0.0.5"  # Version of the script
 
-# Define the PHPIPAM API details
-#$BaseURL = "https://ipam.badunicorn.no/api/"     # Replace with your PHPIPAM base URL
-#$AppID = "chmo-test"                             # Replace with your application ID
-#$Token = "QWDb36x4M893mFBHuQKZyp3WmiOCyeje"      # Replace with your API token
-
 # Get variables from environment variables
 $BaseURL = $Env:phpIPAMURL + "api/"         # Note: The URL should end with a trailing slash
 $AppID = $Env:AppID
