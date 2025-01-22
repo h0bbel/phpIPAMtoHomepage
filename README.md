@@ -19,7 +19,7 @@ Set the environment variables and run the script
 
 `$Env:AppID` set to the App id in the phpIPAM API via **Administration -> API -> Create API Key**. Create an App id with App security: SSL with App code token. phpIPAMtoHomepage only requires READ permissions.
 
-![screenshot](https://github.com/h0bbel/phpIPAMtoHomepage/raw/master/img/phpipamapi01.png)
+![screenshot](https://github.com/h0bbel/phpIPAMtoHomepage/blob/main/img/phpipamapi01.png)
 
 `$Env:Token` set to the "App code" created in the phpIPAM API settings.
 
