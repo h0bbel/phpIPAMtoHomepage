@@ -13,8 +13,9 @@ Set the environment variables and run the script
 
 ## Environment Variables
 
-$phpIPAMURL         # Note: The URL should end with a trailing slash
+$Env:phpIPAMURL         # Note: The URL should end with a trailing slash
+$Env:AppID
+$Env:Token
 
-$AppID
-
-$Token
+## Volumes
+/homepage should be mapped to a location where [Homepage](https://gethomepage.dev/) can read the services.yaml from.
