@@ -25,6 +25,11 @@ Set the environment variables and run the script
 
 `$Env:Token` set to the "App code" created in the phpIPAM API settings.
 
+### Example
+
+docker run -e phpIPAMURL=http://phpipam.example.com -e AppID=myAppID -e Token=123456 <container>
+
 ## Docker Volumes
 
 /homepage should be mapped to a location where this container can write the services.yaml file to, and [Homepage](https://gethomepage.dev/) can read it from.
+
